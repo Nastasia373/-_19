@@ -1,3 +1,7 @@
+body{
+margin: 0px;
+padding: 0px;
+}
 .bg1 {
     background-size: 100%;
     background-position: center;
@@ -640,11 +644,11 @@
 }
 @media screen and (max-width: 400px) {
     .page1{
-        width: 375px;
+        width: 360px;
     }
-    .bg1{
-        width: 375px;
-    }
+    /* .bg1{
+        width: 320px;
+    } */
     .menushka {
         display: none;
     }
@@ -703,6 +707,7 @@
 
     .lines {
         display: flex;
+        margin-left: 280px;
     }
 
     .page2 {
@@ -957,4 +962,12 @@ display: inline-block;
 width: 230px;
 text-align: center;
 }
+.bg5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .Ris{
+        flex: 1 1 23rem;
+    }
 }
